@@ -1,0 +1,114 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-image: linear-gradient(blue,purple);
+  background-repeat: no-repeat;
+  font-size: 1.6rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 20rem;
+}
+
+.navigation {
+  color: lightgrey;
+  text-decoration: none;
+}
+
+.trial {
+  margin-left: 1rem;
+  margin-right: 20rem;
+}
+
+input[type="button"], button {
+  background-image: linear-gradient(orange, #FCD299);
+  font-weight: bold;
+  font-size: 1.6rem;
+  color: white;
+  padding: 0.8rem 2rem;
+  border: 0;
+  border-radius: 2rem;
+}
+
+button {
+  margin-top: 5rem;
+  padding: 2rem 6rem;
+  border-radius: 5rem;
+  white-space: normal;
+}
+
+.mission {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-image: url("../images/picture-1.gif");
+  background-repeat: no-repeat;
+  background-position: right;
+  padding: 20rem 3rem;
+  height: 100%;
+}
+
+h1 {
+  color: whitesmoke;
+  font-weight: bold;
+}
+
+h2 {
+  color: lightgrey;
+}
+
+.mission--paragraph {
+  color: lightgrey;
+}
+
+.science {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10rem;
+}
+
+h3 {
+  color: lightgrey;
+}
+
+.technology {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.technology img{
+  margin: 5rem;
+}
+
+.techinfo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.patent{
+  margin: 5rem;
+}
+
+.brain{
+  margin: 5rem;
+}
+
+.brain h3 {
+  margin-top: 10rem;
+}
+
+.explore:link{
+  color: white;
+  font-weight: bolder;
+  text-decoration: underline;
+}
